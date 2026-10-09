@@ -23,11 +23,11 @@ function GuerrerosContainer() {
     return (
         <>
             <div className='container mt-3'>
-                <div className="row">
-                    <div className="col-lg-5 mb-4">
+                <div className="row mb-4 justify-content-center">
+                    <div className="col-md-6">
                         <GuerrerosForm onAddGuerrero={handleCreate} />
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-12">
                         <GuerrerosView guerreros={guerreros} onQuitar={handleDelete} />
                     </div>
                 </div>
